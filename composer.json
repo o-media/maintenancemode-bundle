@@ -8,6 +8,9 @@
     "type" : "composer",
     "url" : "https://packagist.org/"
   } ],
+  "require-dev" : {
+    "twig/twig" : ">=1.*"
+  },
   "authors" : [ {
     "name" : "Alexander Sergeychik",
     "email" : "alexander.sergeychik@gmail.com"
@@ -18,7 +21,7 @@
       "OMedia\\Bundle\\MaintenanceModeBundle" : "src/"
     }
   },
-  "type" : "symfony-bundle",
   "license" : "MIT",
+  "type" : "symfony-bundle",
   "homepage" : "http://github.com/o-media"
 }
