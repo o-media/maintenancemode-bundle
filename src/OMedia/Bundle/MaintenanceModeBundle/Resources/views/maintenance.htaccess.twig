@@ -1,0 +1,12 @@
+DirectoryIndex maintenance.html
+Options +FollowSymlinks
+ErrorDocument 503 /maintenance.html
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+	RewriteCond %{REQUEST_URI} !^/maintenance.html$
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule .* /maintenance.html [L,R=503,QSA]
+</IfModule>
+
+
