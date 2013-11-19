@@ -1,5 +1,7 @@
 {
   "name" : "o-media/maintenancemode-bundle",
+  "description": "Symfony2 maintenance mode bundle",
+  "keywords": ["Symfony2", "Maintenance mode"],
   "require" : {
     "symfony/console" : ">=2.1",
     "php" : ">=5.2"
@@ -9,7 +11,7 @@
     "url" : "https://packagist.org/"
   } ],
   "require-dev" : {
-    "twig/twig" : ">=1.*"
+    "twig/twig" : "~1.5"
   },
   "authors" : [ {
     "name" : "Alexander Sergeychik",
